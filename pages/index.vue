@@ -1,112 +1,124 @@
 <template>
   <section>
-    <div>
+    <div class="flex flex-col items-center">
       <logo />
       <h1 class="title">NUXT</h1>
       <h2 class="subtitle">Starter for CodeSandBox</h2>
       <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green"
-          >Documentation
-          <icon-link />
-        </a>
-        <NuxtLink to="#anchor1" class="button--grey">Anchor1</NuxtLink>
-        <NuxtLink :to="{ path: '/', hash: '#anchor2' }" class="button--green"
-          >Anchor2</NuxtLink
-        >
+        <div class="flex space-x-10">
+          <a
+            href="https://nuxtjs.org/"
+            target="_blank"
+            class="bg-green-400 rounded-lg text-2xl px-4 py-2 flex"
+            >Documentation
+            <icon-link />
+          </a>
+          <NuxtLink
+            to="#anchor1"
+            class="bg-green-400 rounded-lg text-2xl px-4 py-2"
+            >Anchor1</NuxtLink
+          >
+          <NuxtLink
+            :to="{ path: '/', hash: '#anchor2' }"
+            class="bg-green-400 rounded-lg text-2xl px-4 py-2"
+            >Anchor2</NuxtLink
+          >
+        </div>
       </div>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <div id="anchor1" class="anchor">anchor1</div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <div id="anchor2" class="anchor">anchor2</div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <div id="anchor1" class="anchor">anchor1</div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <div id="anchor2" class="anchor">anchor2</div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
   </section>
 </template>
 

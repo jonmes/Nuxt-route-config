@@ -8,6 +8,8 @@
   },
   "devDependencies": {
     "@ionic/vue-router": "^6.0.5",
+    "@nuxtjs/color-mode": "^3.1.4",
+    "@nuxtjs/tailwindcss": "^5.1.3",
     "autoprefixer": "latest",
     "nuxt": "3.0.0-rc.4",
     "postcss": "latest",

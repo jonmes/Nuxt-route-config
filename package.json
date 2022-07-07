@@ -8,6 +8,9 @@
   },
   "devDependencies": {
     "@ionic/vue-router": "^6.0.5",
-    "nuxt": "3.0.0-rc.4"
+    "autoprefixer": "latest",
+    "nuxt": "3.0.0-rc.4",
+    "postcss": "latest",
+    "tailwindcss": "^3.1.4"
   }
 }
